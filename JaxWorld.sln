@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JaxWorld", "JaxWorld\JaxWorld.csproj", "{C9144E4E-9019-46F3-B5F0-8F9179291F69}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JaxWorld.Api", "JaxWorld.Api\JaxWorld.Api.csproj", "{C9144E4E-9019-46F3-B5F0-8F9179291F69}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
