@@ -1,5 +1,98 @@
+########################################
+# Rider (JetBrains) ignores
+########################################
+.idea/
+*.sln.iml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/usage.statistics.xml
+.idea/dictionaries/
+.idea/shelf/
+.idea/dataSources/
+.idea/dataSources.ids
+.idea/dataSources.local.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
+.idea/dbnavigator.xml
+.idea/sonarlint/
+.idea/markdown-navigator.xml
+.idea/markdown-navigator/
+.idea/aws.xml
+.idea/azure.xml
+.idea/localHistory/
+.idea/replstate.xml
+out/
+
+########################################
+# Visual Studio ignores
+########################################
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
 bin/
 obj/
-/packages/
-riderModule.iml
-/_ReSharper.Caches/
+[Bb]uild/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio cache/options
+*.vcxproj.user
+*.vcxproj.filters
+*.ncb
+*.opendb
+*.opensdf
+*.sdf
+*.cachefile
+*.pdb
+
+# Debug/Release directories
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+*.nuget.props
+*.nuget.targets
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# Visual Studio Test Results
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+*.coveragexml
+
+########################################
+# Common .NET ignores
+########################################
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.lock.json
+*.ide
+*.dbmdl
+*.bak
+*.ldf
+*.mdf
+
+# Generated files
+Generated_Code/
+
+# Publish output
+publish/
