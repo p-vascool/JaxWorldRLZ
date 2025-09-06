@@ -9,7 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{B91C7C
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiGateway", "ApiGateway", "{487C29A3-A19F-410C-82D2-99B6887DBEEE}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Authentucation", "Authentucation", "{A2EE7626-E3CA-4C18-9EBD-3EB9C0170A68}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Authentication", "Authentication", "{A2EE7626-E3CA-4C18-9EBD-3EB9C0170A68}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Accounting", "Accounting", "{E9E580CC-8DE2-432A-8DAB-7FA245BB2C6E}"
 EndProject
@@ -28,6 +28,14 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JaxWorld.Infrastructure", "src\API\JaxWorld.Infrastructure\JaxWorld.Infrastructure.csproj", "{1C3BED43-CA0A-D201-B095-100518F1F7C7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JaxWorld.Shared.Domain", "src\Shared\JaxWorld.Shared.Domain\JaxWorld.Shared.Domain.csproj", "{B0296A47-16DA-9F63-C883-C5C1B25E82D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authentication.Domain", "src\Authentication\Authentication.Domain\Authentication.Domain.csproj", "{1204A898-6B48-4E06-850C-D78B7644419B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authentication.Api", "src\Authentication\Authentication.Api\Authentication.Api.csproj", "{B3EE08C5-256B-4E95-875E-23D17249C3F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authentication.Application", "src\Authentication\Authentication.Application\Authentication.Application.csproj", "{11984703-A9AC-463E-B7CE-6DD18E7BC753}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authentication.Infrastructure", "src\Authentication\Authentication.Infrastructure\Authentication.Infrastructure.csproj", "{FAEE2AC3-27F0-43B7-8800-C77C564FD1BC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +63,22 @@ Global
 		{B0296A47-16DA-9F63-C883-C5C1B25E82D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0296A47-16DA-9F63-C883-C5C1B25E82D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0296A47-16DA-9F63-C883-C5C1B25E82D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1204A898-6B48-4E06-850C-D78B7644419B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1204A898-6B48-4E06-850C-D78B7644419B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1204A898-6B48-4E06-850C-D78B7644419B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1204A898-6B48-4E06-850C-D78B7644419B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3EE08C5-256B-4E95-875E-23D17249C3F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3EE08C5-256B-4E95-875E-23D17249C3F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3EE08C5-256B-4E95-875E-23D17249C3F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3EE08C5-256B-4E95-875E-23D17249C3F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11984703-A9AC-463E-B7CE-6DD18E7BC753}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11984703-A9AC-463E-B7CE-6DD18E7BC753}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11984703-A9AC-463E-B7CE-6DD18E7BC753}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11984703-A9AC-463E-B7CE-6DD18E7BC753}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAEE2AC3-27F0-43B7-8800-C77C564FD1BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAEE2AC3-27F0-43B7-8800-C77C564FD1BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAEE2AC3-27F0-43B7-8800-C77C564FD1BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAEE2AC3-27F0-43B7-8800-C77C564FD1BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -72,6 +96,10 @@ Global
 		{00BF878E-98D4-6963-2813-C362853F8FBB} = {3D8A0606-8AC9-4C2E-97B9-90B590FA71E8}
 		{1C3BED43-CA0A-D201-B095-100518F1F7C7} = {3D8A0606-8AC9-4C2E-97B9-90B590FA71E8}
 		{B0296A47-16DA-9F63-C883-C5C1B25E82D6} = {B91C7CDE-6CDB-4B6D-9D76-C38F66BE6C2F}
+		{1204A898-6B48-4E06-850C-D78B7644419B} = {A2EE7626-E3CA-4C18-9EBD-3EB9C0170A68}
+		{B3EE08C5-256B-4E95-875E-23D17249C3F9} = {A2EE7626-E3CA-4C18-9EBD-3EB9C0170A68}
+		{11984703-A9AC-463E-B7CE-6DD18E7BC753} = {A2EE7626-E3CA-4C18-9EBD-3EB9C0170A68}
+		{FAEE2AC3-27F0-43B7-8800-C77C564FD1BC} = {A2EE7626-E3CA-4C18-9EBD-3EB9C0170A68}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {89BB67BA-F48E-40A6-BD66-6F9BB7442CC1}

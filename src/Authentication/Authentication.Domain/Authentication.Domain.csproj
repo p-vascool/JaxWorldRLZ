@@ -3,15 +3,16 @@
     <PropertyGroup>
         <TargetFramework>net9.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
-        <Nullable>enable</Nullable>
+        <RootNamespace>Authentication.Api</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Authentication.Application\Authentication.Application.csproj" />
+      <Folder Include="Entities\" />
+      <Folder Include="Extensions\" />
     </ItemGroup>
 
     <ItemGroup>
-      <PackageReference Include="MessagePack" Version="3.1.4" />
+      <ProjectReference Include="..\..\Shared\JaxWorld.Shared.Domain\JaxWorld.Shared.Domain.csproj" />
     </ItemGroup>
 
 </Project>
